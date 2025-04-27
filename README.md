@@ -26,15 +26,22 @@ This is a main service to develop RAG systems. We can set up LLM, integrate the 
 
 Choices of implementation
 - Use `GPT-4o` as LLM and `text-embedding-ada-002` as an embedding
-- Select `Hybridge + sementics` for a method of retriving information from indexed data.
-- Size of chunking data is 1024
+
 
 In Deployment section, deploy `GPT-4o` and `text-embedding-ada-002`
 ![image](https://github.com/user-attachments/assets/8001e36a-4689-4740-a017-fb33f428c361)
 
 
 ## Retrieval-Augmented Generation (RAG) Implementation
+How to build RAG systems.
+(1) In Azure AI Foundry, go to `Chat`.
+(2) Select LLM, write prompt, add data (from indexing data)
+![image](https://github.com/user-attachments/assets/60440175-28bf-42d0-aa6f-f389b3d5e60a)
 
+When setup indexed data with LLM, these are the settings.
+- Select `Hybridge + sementics` for a method of retriving information from indexed data.
+- Size of chunking data is 1024
+- Data source is from 10-Q, which is already stored in Azure Storage.
 
 
 ## Prompt development and testing
