@@ -46,7 +46,7 @@ When setup indexed data with LLM, these are the settings.
 
 LLM parameters are also adjusted on the parameter section at the very bottom.
 
-![image](https://github.com/user-attachments/assets/67b15992-cd71-4480-b3cd-133eb562eab8)
+![image<width="250"/>](https://github.com/user-attachments/assets/67b15992-cd71-4480-b3cd-133eb562eab8)
 
 
 ## Prompt development and testing
