@@ -1,4 +1,4 @@
-Here is the response from system prompt 1.
+Here is the response from system_prompt_1.txt.
 
 Question: What is the current look of NVIDIA?
 Response: (below)
