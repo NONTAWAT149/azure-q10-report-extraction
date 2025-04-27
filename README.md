@@ -7,20 +7,32 @@ This project utilizes sample data from NVIDIA’s 10-Q report, available here [L
 A tool that we use to develop this capability is Azure AI Foundry [Link](https://ai.azure.com/).
 
 The development process is structured into three key stages:
-- Setting up the Azure environment
-- Retrieval-Augmented Generation (RAG) Implementation (integrating a large language model (LLM) with the indexed data)
+1. Setting up the Azure environment
+2. Retrieval-Augmented Generation (RAG) Implementation (integrating a large language model (LLM) with the indexed data)
   - Uploading the 10-Q report to Azure Storage
   - Building a data indexing system
   - Connect LLMs with indexed data
-- Fine-tuning prompts and optimizing LLM parameters
+3. Fine-tuning prompts and optimizing LLM parameters
 
 ## AI Azure service deployment (Setting up the Azure environment)
 In Resource Group, three services need to be enable including Storage Account, Search Service, and Azure OpenAI.
 ![image](https://github.com/user-attachments/assets/79b5ffdf-4073-4439-b8a5-dda0d3920fe0)
 
+### Storage Account
+This is used to store 10-Q report. Once the storage is created, upload the 10-Q data. Please note that when setting up the Storage Account, make sure that you use the same location as Resource Group. In this project, we use `West US`.
 
+### Search Service
+It is a tool to provide information retrival as a part of RAG system. You can follow general instruction on [here](https://learn.microsoft.com/en-us/azure/search/search-create-service-portal).
+
+### Azure OpenAI
+This is a main service to develop RAG systems. We can set up LLM, integrate the LLM with indexed data, fine-tune prompt, and test the response of our RAG application. 
+Choices of implementation
+- Use GPT-4o
+- Select "Hybridge + sementics" for algorithm of retriving information from indexed data.
+- Size of chunking data is 1024
 
 ## Retrieval-Augmented Generation (RAG) Implementation
+
 
 
 ## Prompt development and testing
