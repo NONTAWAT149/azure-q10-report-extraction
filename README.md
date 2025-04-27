@@ -44,6 +44,10 @@ When setup indexed data with LLM, these are the settings.
 - Size of chunking data is 1024
 - Data source is from 10-Q, which is already stored in Azure Storage.
 
+LLM parameters are also adjusted on the parameter section at the very bottom.
+
+![image](https://github.com/user-attachments/assets/67b15992-cd71-4480-b3cd-133eb562eab8)
+
 
 ## Prompt development and testing
 
