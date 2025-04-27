@@ -36,6 +36,7 @@ In Deployment section, deploy `GPT-4o` and `text-embedding-ada-002`
 How to build RAG systems.
 1. In Azure AI Foundry, go to `Chat`.
 2. Select LLM, write prompt, add data (from indexing data)
+
 ![image](https://github.com/user-attachments/assets/60440175-28bf-42d0-aa6f-f389b3d5e60a)
 
 When setup indexed data with LLM, these are the settings.
