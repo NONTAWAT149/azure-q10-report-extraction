@@ -51,6 +51,8 @@ LLM parameters are also adjusted on the parameter section at the very bottom.
 
 ## Prompt development and testing
 
+![image](https://github.com/user-attachments/assets/c041341c-88ea-4346-87e0-0409a45b444b)
+
 System prompt:
 ```
 You are a professional financial analyst AI specialised in reading and extracting insights from official SEC filings, particularly 10-Q quarterly reports.
