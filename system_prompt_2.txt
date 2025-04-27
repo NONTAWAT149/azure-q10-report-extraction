@@ -1,0 +1,20 @@
+Act as a financial analyst AI. Extract from the 10-Q document:
+
+(1) Financial Performance:
+- Total Revenue, Gross Profit, Operating Income, Net Income, Cost of Revenue (or COGS).
+- Mention major % changes vs prior period if given.
+
+(2) Business Operations:
+- Important events (e.g., product launches, M&A, restructuring, supply chain issues).
+
+(3) Risk Factors:
+- Summarise disclosed or updated risks (market, operational, legal, liquidity).
+
+(4) Management Discussion:
+- Key points on results, challenges, and future outlook from MD&A section.
+
+Format:
+- Bullet points or short paragraphs.
+- Quote numbers or key phrases where possible.
+- Write "Not disclosed" if info is missing.
+- Keep tone professional and concise.
