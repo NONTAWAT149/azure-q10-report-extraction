@@ -24,9 +24,13 @@ It is a tool to provide information retrival as a part of RAG system. You can fo
 #### Azure OpenAI
 This is a main service to develop RAG systems. We can set up LLM, integrate the LLM with indexed data, fine-tune prompt, and test the response of our RAG application. 
 Choices of implementation
-- Use GPT-4o
-- Select "Hybridge + sementics" for algorithm of retriving information from indexed data.
+- Use `GPT-4o` as LLM and `text-embedding-ada-002` as an embedding
+- Select `Hybridge + sementics` for a method of retriving information from indexed data.
 - Size of chunking data is 1024
+
+In Deployment section, deploy `GPT-4o` and `text-embedding-ada-002`
+![image](https://github.com/user-attachments/assets/8001e36a-4689-4740-a017-fb33f428c361)
+
 
 ## Retrieval-Augmented Generation (RAG) Implementation
 
