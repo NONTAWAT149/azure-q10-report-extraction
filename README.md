@@ -11,6 +11,7 @@ The development process is structured into three key stages:
 - Retrieval-Augmented Generation (RAG) Implementation (integrating a large language model (LLM) with the indexed data)
   - Uploading the 10-Q report to Azure Storage
   - Building a data indexing system
+  - Connect LLMs with indexed data
 - Fine-tuning prompts and optimizing LLM parameters
 
 ## AI Azure service deployment (Setting up the Azure environment)
