@@ -9,8 +9,8 @@ A tool that we use to develop this capability is Azure AI Foundry [Link](https:/
 The development process is structured into three key stages:
 - Setting up the Azure environment
 - Retrieval-Augmented Generation (RAG) Implementation (integrating a large language model (LLM) with the indexed data)
-- - Uploading the 10-Q report to Azure Storage
-- - Building a data indexing system
+  - Uploading the 10-Q report to Azure Storage
+  - Building a data indexing system
 - Fine-tuning prompts and optimizing LLM parameters
 
 ## AI Azure service deployment (Setting up the Azure environment)
