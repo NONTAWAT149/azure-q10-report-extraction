@@ -23,6 +23,7 @@ This is used to store 10-Q report. Once the storage is created, upload the 10-Q 
 It is a tool to provide information retrival as a part of RAG system. You can follow general instruction on [here](https://learn.microsoft.com/en-us/azure/search/search-create-service-portal).
 #### Azure OpenAI
 This is a main service to develop RAG systems. We can set up LLM, integrate the LLM with indexed data, fine-tune prompt, and test the response of our RAG application. 
+
 Choices of implementation
 - Use `GPT-4o` as LLM and `text-embedding-ada-002` as an embedding
 - Select `Hybridge + sementics` for a method of retriving information from indexed data.
