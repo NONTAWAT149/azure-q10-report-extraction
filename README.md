@@ -15,6 +15,9 @@ The development process is structured into three key stages:
 - Fine-tuning prompts and optimizing LLM parameters
 
 ## AI Azure service deployment (Setting up the Azure environment)
+In Resource Group, three services need to be enable including Storage Account, Search Service, and Azure OpenAI.
+![image](https://github.com/user-attachments/assets/79b5ffdf-4073-4439-b8a5-dda0d3920fe0)
+
 
 
 ## Retrieval-Augmented Generation (RAG) Implementation
